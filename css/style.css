@@ -1,6 +1,8 @@
 :root {
     --bs-primary: #E76F51;
     --bs-primary-rgb: 231, 111, 81;
+    --bs-secondary: #2A9D8F;
+    --bs-secondary-rgb: 42, 157, 143;
     --bs-success: #264653;
     --bs-success-rgb: 38, 70, 83;
     --bs-border-color: #264653;
