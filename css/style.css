@@ -1,0 +1,23 @@
+:root {
+    --bs-primary: #E76F51;
+    --bs-primary-rgb: 231, 111, 81;
+    --bs-success: #264653;
+    --bs-success-rgb: 38, 70, 83;
+    --bs-border-color: #264653;
+    --bs-border-color-rgb: 38, 70, 83;
+}
+
+.btn-primary {
+    --bs-btn-bg: #2A9D8F;
+    --bs-btn-border-color: #2A9D8F;
+    --bs-btn-hover-bg: #26857a;
+    --bs-btn-hover-border-color: #26857a;
+    --bs-btn-active-bg: #26857a;
+    --bs-btn-active-border-color: #26857a;
+}
+
+.list-group-item {
+    color: #264653;
+    background-color: transparent;
+    border: var(--bs-list-group-border-width) solid #264653;
+}

@@ -16,6 +16,27 @@
 
 <body>
 
+    <main class="bg-primary vh-100 pt-5">
+        <div class="container text-success text-center">
+            <!-- Sezione form per generare la lista -->
+            <div class="border rounded-4">
+                <h1 class="pb-3 pt-3">Crea una lista di invitati</h1>
+                <!-- Form da compilare -->
+                <div class="pt-3">
+                    <div class="d-flex justify-content-center align-items-center mb-3">
+                        <label for="number1" class="form-label fs-4 pe-3">Inserisci il numero di invitati:</label>
+                        <input type="number" class="form-control w-25 number-name-list" id="number1">
+                    </div>
+                    <button class="btn btn-primary mt-3 fs-5 mb-4 me-2 btn-create">Crea lista</button>
+                    <button class="btn btn-primary mt-3 fs-5 mb-4 ms-2 btn-delete">Cancella lista</button>
+                </div>
+            </div>
+            <!-- Lista creata -->
+            <ul class="list-group list-group-flush fs-5 mt-5 invite-list-create">
+            </ul>
+        </div>
+    </main>
+
     <!-- Custom Js -->
     <script src="script.js"></script>
 </body>
