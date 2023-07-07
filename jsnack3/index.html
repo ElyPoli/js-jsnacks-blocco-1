@@ -15,6 +15,42 @@
 </head>
 
 <body>
+    <main class="bg-primary min-vh-100 pt-5">
+        <div class="container text-success text-center">
+            <h1 class="pb-3 pt-3">Liste con un numero diverso di elementi</h1>
+            <!-- Liste iniziali -->
+            <h2 class="pb-2 pt-2 bg-success text-white border rounded-4">Ecco le liste iniziali:</h2>
+            <div class="pt-4 pb-4 fs-5 d-flex align-items-start justify-content-around text-center">
+                <div>
+                    <span class="fw-bold">La prima lista ha <span id="first-list-start"></span> elementi</span>
+                    <ul class="list-group list-group-flush fs-5 long-list-start mt-3">
+                    </ul>
+                </div>
+                <div>
+                    <span class="fw-bold">La seconda lista ha <span id="second-list-start"></span> elementi</span>
+                    <ul class="list-group list-group-flush fs-5 short-list-start mt-3">
+                    </ul>
+                    <button class="btn btn-primary mt-3 fs-5 mb-4 ms-2 btn-add">Aggiungi elementi</button>
+                </div>
+            </div>
+            <!-- Liste finali -->
+            <div class="d-none" id="box-final-lists">
+                <h2 class="pb-2 pt-2 bg-success text-white border rounded-4">Ecco le liste finali:</h2>
+                <div class="pt-4 pb-4 fs-5 d-flex align-items-start justify-content-around text-center">
+                    <div>
+                        <span class="fw-bold">La prima lista ha <span id="first-list-end"></span> elementi</span>
+                        <ul class="list-group list-group-flush fs-5 long-list-end mt-3">
+                        </ul>
+                    </div>
+                    <div>
+                        <span class="fw-bold">La seconda lista ha <span id="second-list-end"></span> elementi</span>
+                        <ul class="list-group list-group-flush fs-5 short-list-end mt-3">
+                        </ul>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </main>
 
     <!-- Custom Js -->
     <script src="script.js"></script>
